@@ -7,7 +7,7 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f1f0f0;
+  background-color: #f3f3f3;
   color: #3e3e3e;
   font-size: 16px;
   line-height: 1.68;
@@ -17,6 +17,9 @@ body {
 }
 .shadow {
   box-shadow: 0 10px 30px rgba(90, 90, 90, 0.05) !important;
+}
+i.fa-shopping-cart {
+  margin-right: 5px;
 }
 h1 {
   font-family: 'Bebas Neue', cursive;
@@ -69,6 +72,7 @@ a.btn:hover {
 }
 /* Card Style */
 .card {
+  margin-bottom: 30px;
   overflow: hidden;
   border: none;
   border-radius: 20px;
@@ -300,4 +304,103 @@ img {
   height: 100%;
   display: flex;
   align-items: center;
+}
+/* faq-area */
+.faq-area {
+  padding: 50px 0;
+}
+.accordion-title {
+  float: left;
+  font-size: 20px;
+  color: #fa804c !important;
+  margin: 0 !important;
+}
+
+.accordion .card {
+  padding: 7px 15px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: #f5f7fa;
+}
+.faq-title,
+.section-title {
+  margin-bottom: 40px;
+}
+
+/* contact us */
+.contact-us {
+  padding: 100px 0;
+  background-color: #eeeeeee0;
+}
+.location-bar,
+.number-bar,
+.email-bar {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px 30px;
+  margin: 15px 25px;
+  display: flex;
+  align-items: center;
+  color: #fa804c;
+  justify-content: center;
+}
+.contact-bar .icon {
+  margin-right: 16px;
+}
+.contact-bar i {
+  font-size: 49px;
+}
+.contact-bar p,
+h4 {
+  margin: 0;
+  color: #fa804c;
+}
+.contact-us form {
+  margin-top: 35px;
+}
+.contact-us form input,
+textarea {
+  border: none;
+  width: 100%;
+  padding: 11px 9px;
+  margin: 15px 0;
+  background-color: transparent;
+  border: 2px solid #fa804c;
+}
+textarea {
+  height: 190px;
+}
+
+/* Footer area */
+footer {
+  padding: 35px 0;
+  background-color: rgb(197, 211, 255);
+}
+footer p {
+  margin-bottom: 0;
+}
+.center-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+}
+footer a {
+  display: block;
+}
+footer i {
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  color: #fa804c;
+  font-size: 24px;
+}
+.social-chare-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
